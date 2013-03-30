@@ -30,8 +30,7 @@ primeNumA = primeNum;
 unencryptedMessage=prompt(“What do you want to encrypt?”)
 var j = unencryptedMessage.length
 for (i=1; i<j; 1++){
-  unencryptedMessage.charCodeAt(i)=q;
-
+  unencryptedMessage.charCodeAt(i)*encryptorVar=q;
   finalMessage.append(q);
 
 };
